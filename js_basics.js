@@ -58,7 +58,7 @@ let num2 = prompt("Введите второе число");
 let max;
 if (num1 >= num2){
     max = num1;
-} else (num1 < num2){
+} else {
     max = num2;
 }
 console.log("Большее число: " + max);
@@ -122,7 +122,7 @@ let rentPerDay = 40;
 let sale;
 if (daysNum >= 7){
     sale = 50;
-} else if (daysNum >= 3 && daysNum < 7){
+} else if (daysNum >= 3){
     sale = 20;
 } else {
     sale = 0;
